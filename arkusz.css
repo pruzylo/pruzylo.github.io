@@ -1,7 +1,21 @@
 #menu{
     color: gray;
+    width: 100%;    
+    height: auto;
 }
 
 .container{
     font-size: 3rem;
+    width: 100%;
+    height: auto;
+}
+
+div{
+    display: block;
+}
+
+#banner{
+    background-image: "obrazy/zachod.png";
+    width: 100%;
+    height: auto;
 }
