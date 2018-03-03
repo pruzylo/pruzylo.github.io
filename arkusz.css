@@ -2,18 +2,56 @@
     color: gray;
     width: 100%;    
     height: auto;
+  
+}
+
+#menu ul li{
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+    border:  black groove medium;
+    position:   relative;
+}
+
+#foot{
+    width: 100%;
+    background-color:   paleturquoise;
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    left:0;
+    opacity: 0.6;
+    text-align: center;
+    
+    
+    
+    
+}
+#foot p{
+    
+    
+    font-size: 0.7rem;
+    
+}
+
+li:hover{
+    color: red;
+    background-color: gainsboro;
+    top: 1px;
 }
 body{
     
     
 }
 .container{
-    font-size: 3rem;
-    width: 100%;
-    height: 500px;
-    background-image: url("grafika/zachod.png");
+      background-image: url("grafika/zachod.png");
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 3rem;
+    width: 80%;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: auto;
     padding-right: auto;
     alignment-adjust: central;
@@ -28,4 +66,12 @@ div{
     
     width: 100%;
     height: auto;
+}
+
+.logo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:  darkseagreen;
+    font-weight:  initial;
 }
