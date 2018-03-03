@@ -1,60 +1,33 @@
-#menu{
-    color: gray;
-    width: 100%;    
-    height: auto;
-  
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    height: 100%;
 }
 
-#menu ul li{
-    display: inline-block;
-    width: 31%;
-    text-align: center;
-    border:  black groove medium;
-    position:   relative;
-}
-
-#foot{
-    width: 100%;
-    background-color:   paleturquoise;
-    position: fixed;
-    height: 20px;
-    bottom: 0;
-    left:0;
-    opacity: 0.6;
-    text-align: center;
-    
-    
-    
-    
-}
-#foot p{
-    
-    
-    font-size: 0.7rem;
+html, body {
+    min-height:100%;
     
 }
 
-li:hover{
-    color: red;
-    background-color: gainsboro;
-    top: 1px;
-}
 body{
-    
-    
+    background: url("grafika/zachod.png") no-repeat center center;
+    background-size: cover;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+
 .container{
-      background-image: url("grafika/zachod.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 3rem;
-    width: 80%;
-    height: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: auto;
-    padding-right: auto;
-    alignment-adjust: central;
+    
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    
+    
     
 }
 
@@ -62,11 +35,7 @@ div{
     display: block;
 }
 
-#banner{
-    
-    width: 100%;
-    height: auto;
-}
+
 
 .logo{
     position: fixed;
@@ -74,4 +43,41 @@ div{
     right: 20px;
     background-color:  darkseagreen;
     font-weight:  initial;
+    background: url("grafika/autor.png") center center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.btn{
+    
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(241,231,103,0.95) 23%, rgba(254,182,69,0.83) 87%, rgba(254,182,69,0.8) 100%);
+    text-decoration:  none;
+    border-radius: 5px;
+    padding: 25px 60px;
+    text-shadow:  0px 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    -webkit-transition:  box-shadow ls ease;
+    transition: box-shadow ease;
+}
+
+.btn:hover{
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+    -webkit-transition:  box-shadow ls ease;
+    transition: box-shadow ease;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: #f4f3b4;
+    font-size: 3rem;
+    text-shadow:  0px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    
+    
 }
