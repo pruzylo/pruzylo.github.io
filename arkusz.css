@@ -3,11 +3,21 @@
     width: 100%;    
     height: auto;
 }
-
+body{
+    
+    
+}
 .container{
     font-size: 3rem;
     width: 100%;
-    height: auto;
+    height: 500px;
+    background-image: url("grafika/zachod.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: auto;
+    padding-right: auto;
+    alignment-adjust: central;
+    
 }
 
 div{
@@ -15,7 +25,7 @@ div{
 }
 
 #banner{
-    background-image: "obrazy/zachod.png";
+    
     width: 100%;
     height: auto;
 }
