@@ -12,12 +12,17 @@ html, body {
     
 }
 
-body{
+#indexBody{
     background: url("grafika/zachod.png") no-repeat center center;
     background-size: cover;
     display:  flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#beginBody {
+	background-color: black;
+	justify-content: center;
 }
 
 
@@ -32,8 +37,16 @@ body{
     
 }
 
+.beginContainer {
+	justify-content: center;
+	max-width: 600px;
+    margin: 0 auto;
+}
+	
+
 div{
     display: block;
+	
 }
 
 
@@ -83,9 +96,4 @@ h1{
     letter-spacing: 3px;
     
     
-}
-
-h2, .win{  
-	color: red;
-	font-size: 15rem;
 }
