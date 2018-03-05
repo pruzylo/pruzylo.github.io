@@ -1,7 +1,11 @@
 function main(){
 	
+	
+	$('.winner').hide();
   
-  $('.logo').on('click', function(){ $('.container').slideToggle(500);
+  $('.btn').on('click', function(){ 
+  $('.container').fadeToggle(400);
+  $('.winner').toggle();
 		 });
  
 }

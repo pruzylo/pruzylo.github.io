@@ -43,11 +43,11 @@ div{
     bottom: 20px;
     right: 20px;
     background-color:  darkseagreen;
-    font-weight:  initial;
     background: url("grafika/autor.png") center center;
     background-size: cover;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+	border-radius: 20px;
 }
 
 .btn{
@@ -83,4 +83,9 @@ h1{
     letter-spacing: 3px;
     
     
+}
+
+h2, .win{  
+	color: red;
+	font-size: 15rem;
 }
